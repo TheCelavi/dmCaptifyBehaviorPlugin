@@ -1,0 +1,53 @@
+.captify-wrapper {
+	float: left;
+}
+.captify-top, .captify-bottom {	
+	padding: 1.2em;	
+	font-weight: bold;
+	font-size: 13px;	
+	font-family: arial;	
+	cursor: default;
+}
+.captify-top {
+   border-width: 0px 0px 8px 0px;
+}
+.captify-bottom {
+   border-width: 8px 0px 0px 0px;
+}
+.captify a {
+	border: 0 none;
+	text-decoration: none;	
+	padding: 0.3em;
+}
+/**********/
+/* THEMES */
+/**********/
+
+/* Dark */
+
+.captify-wrapper.dark .captify-top, .captify-wrapper.dark .captify-bottom {
+    color: #fff;
+    border: 0px solid #334143;
+    background: #000;
+    text-shadow: 1px 1px 0 #202020;
+}
+.captify-wrapper.dark .captify a {
+    background: #000;
+}
+.captify-wrapper.dark .captify a:hover {
+	background: #202020;
+}
+/* Light */
+
+.captify-wrapper.light .captify-top, .captify-wrapper.light .captify-bottom {
+    color: #000;
+    border: 0px solid #AEC0C2;
+    background: #fff;
+    text-shadow: 1px 1px 0 #EDEDED;
+}
+.captify-wrapper.light .captify a {
+    background: #fff;
+}
+.captify-wrapper.light .captify a:hover {
+	background: #EDEDED;
+}

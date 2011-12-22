@@ -1,0 +1,7 @@
+js:
+  dmCaptifyBehaviorPlugin:
+    captify:  jquery.captify.modified
+    launch: dmCaptifyBehavior
+css:
+  dmCaptifyBehaviorPlugin:
+    themes: themes

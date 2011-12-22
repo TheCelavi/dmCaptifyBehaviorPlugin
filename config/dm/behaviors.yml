@@ -1,0 +1,6 @@
+dmBehaviors:
+  dmCaptifyBehavior:
+    section: Media Gallery
+    name: Captify
+    form: dmCaptifyBehaviorForm
+    view: dmCaptifyBehaviorView
