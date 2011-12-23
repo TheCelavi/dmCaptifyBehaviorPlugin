@@ -111,15 +111,15 @@ class dmCaptifyBehaviorForm extends dmBehaviorBaseForm {
             'hideDelay'=>'Hide captify on mouse out after specific number of ms'
         )); 
         
-        if (!$this->getWidgetSchema()->getDefault('inner_target')) $this->getWidgetSchema()->setDefault ('inner_target', 'img');
-        if (!$this->getWidgetSchema()->getDefault('source')) $this->getWidgetSchema()->setDefault ('source', 'alt');
-        if (!$this->getWidgetSchema()->getDefault('theme')) $this->getWidgetSchema()->setDefault ('theme', 'dark');
-        if (!$this->getWidgetSchema()->getDefault('position')) $this->getWidgetSchema()->setDefault ('position', 'bottom');
-        if (!$this->getWidgetSchema()->getDefault('animation')) $this->getWidgetSchema()->setDefault ('animation', 'slide');
-        if (!$this->getWidgetSchema()->getDefault('easing')) $this->getWidgetSchema()->setDefault ('easing', 'jswing');
-        if (!$this->getWidgetSchema()->getDefault('speedOver')) $this->getWidgetSchema()->setDefault ('speedOver', 'fast');
-        if (!$this->getWidgetSchema()->getDefault('speedOut')) $this->getWidgetSchema()->setDefault ('speedOut', 'normal');
-        if (!$this->getWidgetSchema()->getDefault('hideDelay')) $this->getWidgetSchema()->setDefault ('hideDelay', 500);
+        if (!$this->getDefault('inner_target')) $this->setDefault ('inner_target', 'img');
+        if (!$this->getDefault('source')) $this->setDefault ('source', 'alt');
+        if (!$this->getDefault('theme')) $this->setDefault ('theme', 'dark');
+        if (!$this->getDefault('position')) $this->setDefault ('position', 'bottom');
+        if (!$this->getDefault('animation')) $this->setDefault ('animation', 'slide');
+        if (!$this->getDefault('easing')) $this->setDefault ('easing', 'jswing');
+        if (!$this->getDefault('speedOver')) $this->setDefault ('speedOver', 'fast');
+        if (!$this->getDefault('speedOut')) $this->setDefault ('speedOut', 'normal');
+        if (!$this->getDefault('hideDelay')) $this->setDefault ('hideDelay', 500);
         
         parent::configure();
     }
