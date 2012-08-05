@@ -28,7 +28,7 @@
             $this.data('dmCaptifyBehavior', null);
             $this.data('dmCaptifyBehaviorPreviousDOM', null)
         }
-    }
+    };
     
     $.fn.dmCaptifyBehavior = function(method, behavior){
         
